@@ -8,3 +8,7 @@ Esse curso tem o objetivo de aprimorar e melhorar meus conhecimentos em JavaScri
 
 ### Segue o link do curso
 https://www.youtube.com/playlist?list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm
+
+### Livros referência para estudo da linguagem
+JavaScript - O guia definitivo - David Flanagan
+JavaScript - Guia do programador - Maurício Samy Silva
