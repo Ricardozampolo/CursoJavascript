@@ -26,7 +26,7 @@ n1.toFixed(2).replace('.', ',') - Para colocar a ordem do potno e da vírgula no
 
 n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) - Código para você retornar o valor em um saldo monetário
 
-Operadores
+Operadores Aritméticos
 
 + Adição
 - Subtração
@@ -40,3 +40,45 @@ Se fizermos uma conta declarando n como 10
 
 n += 4 - Recebe apenas o valor e o adiciona na variável definida anteriormente
 n **= 3
+
+Operadores Relacionais
+> Maior
+< Menor
+>= Maior igual
+<= Menor igual
+== Igual - Não testa o tipo
+!= Diferente
+=== idêntico - Testa o tipo de dado 
+
+Operadores Lógicos
+! - Negação
+&& - E 
+|| - OU
+
+Primeiro - Não 
+Segundo - E
+Terceiro - OU
+
+Ordem de Precedência
+1°Aritmético
+2°Relacionais
+3°Lógicos
+
+Operadores Ternário
+? 
+:
+
+teste?true:false
+
+1° É um teste Lógicos
+2° É o que vai acontecer quando esse teste for verdadeiro
+3° É o que vai acontecer quando esse teste for falso
+
+Exemplo
+
+var média = 5.5
+média > 7?'Aprovado':'Reprovado'
+
+var x = 8
+
+var res = x % 2 == 0 ? 5: 9 //Nesse exemplo Ele irá ver se o resultado do calculo é verdadeiro ou falso, caso seja verdadeiro o res recebe valor 5, se for falso recebe valor 9
