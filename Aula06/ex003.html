@@ -25,9 +25,12 @@
     <h1>Olá, mundo!</h1>
     <p>Já me livrei da maldição</p>
     <script>
-        window.alert('Minha primeira mensagem!');
-        window.confirm('Está gostando de javaScript');
-        window.prompt('Qual é o seu nome?');
+        //O prompt sempre retorna o valor inserido como string
+        var n1 = Number.parseFloat(window.prompt('Digite um número: '));//parseInt - retorna um número inteiro
+        var n2 = Number.parseFloat(window.prompt('Digite outro número: '));//parseInt - retorna um número inteiro
+
+        var soma = n1 + n2;
+        window.alert(`O valor da soma entre ${n1} e ${n2} é igual a ${soma}`);
     </script>
 </body>
 
