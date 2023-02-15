@@ -82,3 +82,33 @@ média > 7?'Aprovado':'Reprovado'
 var x = 8
 
 var res = x % 2 == 0 ? 5: 9 //Nesse exemplo Ele irá ver se o resultado do calculo é verdadeiro ou falso, caso seja verdadeiro o res recebe valor 5, se for falso recebe valor 9
+
+DOM - Document Object Model
+
+window.document.write("<br>" + window.document.charset + "<br>");//Traz o set de caracteres da própria página
+window.document.write(window.navigator.appName + "<br>");//Traz o nome do navegador
+window.document.write(window.document.URL + "<br>");//Traz a URL do site(acessada no momento)
+
+Podemos acessar os dados através de 5 métodos
+
+- Marca
+- ID
+- Nome
+- Classe
+- Seletor
+
+Quando você for selecionar um elemento e ele estiver no plural, temos que dizer qual elemento estamos pegando.
+
+innerText - Apresenta somente o texto, sem suas formatações 
+window.document(p1.innerText)
+
+innerHTML - Apresenta o texto com suas formatações do HTML
+window.document(p1.innerHTML)
+
+d.innerText = 'Estou aguardando...';//Esse comando alterou a frase de "clique em mim" para "Estou aguardando..."
+
+
+QUERYSELECTOR - Utiliza a sintaxe do CSS
+
+. É para uma Classe
+# É para um ID
