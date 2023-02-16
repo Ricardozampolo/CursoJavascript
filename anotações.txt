@@ -97,7 +97,8 @@ Podemos acessar os dados através de 5 métodos
 - Classe
 - Seletor
 
-Quando você for selecionar um elemento e ele estiver no plural, temos que dizer qual elemento estamos pegando.
+Quando você for selecionar um elemento e ele estiver no plural, temos que dizer qual elemento estamos pegando através dos colchetes,
+senão estiver basta colocar parênteses.
 
 innerText - Apresenta somente o texto, sem suas formatações 
 window.document(p1.innerText)
@@ -112,3 +113,18 @@ QUERYSELECTOR - Utiliza a sintaxe do CSS
 
 . É para uma Classe
 # É para um ID
+
+Eventos - É tudo aquilo que pode acontecer com essa div,mas em outros casos com outros elementos.
+
+- O mais comum é eventos de mouse
+
+mouseenter
+mousemove
+mousedown
+mouseup
+click
+mouseout
+
+Site utilizado para pesquisa de eventos Javascript 
+
+- https://developer.mozilla.org/pt-BR/docs/Web/Events
