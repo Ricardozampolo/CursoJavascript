@@ -128,3 +128,8 @@ mouseout
 Site utilizado para pesquisa de eventos Javascript 
 
 - https://developer.mozilla.org/pt-BR/docs/Web/Events
+
+
+Condições em Javascript
+
+IF ELSE ELIF
