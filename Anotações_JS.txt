@@ -1,0 +1,39 @@
+PARA QUE UM PROGRAMA SEJA EXIBIDO NO NAVEGADOR DEVE ESTAR DENTRO DE UM ARQUIVO HTML.
+
+Aula 04
+
+window - É utilizado para abrir janelas(nesse caso gerar um pop-up na página, realizando as ações requisitadas)
+
+    window.alert(); - Gera um pop-up de alerta
+    window.confirm(); - Gera um pop-up de confirmação
+    window.prompt(); - Gera um prompt a partir de um pop-up que receberá os dados digitados
+
+Aula 06
+
+Aprendemos a criar uma variável dentro do JavaScript e fazê-la receber valores.
+
+Em sequência devolve uma mensagem de alerta concatenando o valor da variável na frase. 
+
+Exemplo:
+    
+    var nome = window.prompt("Digite o seu nome");
+
+    window.alert('É um grande prazer te conhecer, ' + nome + '!');
+
+
+Aprendemos também como tornar o valor obtido do prompt em inteiro ou flutuante.
+
+parseInt - Retorna um inteiro
+parseFloat - Retorna um flutuante
+
+OBS: Não é necessário o Number antes!
+
+    var n1 = Number.parseInt(window.prompt('Digite um número: '));
+
+    var n2 = Number.parseFloat(window.prompt('Digite um número: '));
+
+    var soma = n1 + n2;
+
+Aprendemos também a formular as frases com template string
+
+    window.alert(`O valor da soma entre ${n1} e ${n2} é igual a ${soma}`);
