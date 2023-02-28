@@ -159,6 +159,8 @@ Site utilizado para pesquisa de eventos Javascript
 
 Aula 11
 
+Dentro de um arquivo.js para exibir a frase no console, utilizado console.log ao invés de document.write
+
 Condições em Javascript
 
     IF ELSE ELIF
