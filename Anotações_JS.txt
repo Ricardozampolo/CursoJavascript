@@ -26,7 +26,7 @@ Aprendemos também como tornar o valor obtido do prompt em inteiro ou flutuante.
 parseInt - Retorna um inteiro
 parseFloat - Retorna um flutuante
 
-OBS: Não é necessário o Number antes!
+OBS: Você pode usar somente o Number!
 
     var n1 = Number.parseInt(window.prompt('Digite um número: '));
 
@@ -34,6 +34,131 @@ OBS: Não é necessário o Number antes!
 
     var soma = n1 + n2;
 
+Para converter uma resposta de inteiro transformada anteriormente para string, basta utilizar String() e dentro do valor string colocar a variável que irá devolver o valor em inteiro.
+
+    window.prompt('A soma dos valores é' + String(soma));
+
 Aprendemos também a formular as frases com template string
 
     window.alert(`O valor da soma entre ${n1} e ${n2} é igual a ${soma}`);
+
+
+Formatando Strings
+    
+    soma.length() - Quantos caracteres a string tem
+    soma.toUpperCase() - Tudo para letras 'MAIÚSCULAS'
+    soma.toLowerCase() - Tudo para letras 'minúsculas'
+
+
+Como retornar um saldo monetário
+
+    var n1 = 1545.5
+
+    n1.toFixed(2) - Representa o número de casas decimais
+    n1.toFixed(2).replace('.', ',') - Para colocar a ordem do potno e da vírgula no valor salário
+
+    n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) - Código para você retornar o valor em um saldo monetário
+
+Operadores Aritméticos                  Operadores Relacionais                          Operadores Lógicos
+
+    + Adição                                > Maior                                         ! - Negação
+    - Subtração                             < Menor                                         && - E 
+    * Multiplicação                         >= Maior igual                                  || - OU
+    / Divisão                               <= Menor igual
+    % Divisão Real                          == Igual - Não testa o tipo
+    ** Potência                             != Diferente
+                                            === idêntico - Testa o tipo de dado 
+
+!Ordem de importância!
+
+    Primeiro - Não 
+    Segundo - E
+    Terceiro - OU
+
+!Ordem de Precedência!
+
+    1°Aritmético
+    2°Relacionais
+    3°Lógicos
+
+
+Operadores Ternário
+    ? 
+    :
+
+    teste?true:false
+
+    1° É um teste Lógicos
+    2° É o que vai acontecer quando esse teste for verdadeiro
+    3° É o que vai acontecer quando esse teste for falso
+
+    Exemplo
+
+    var média = 5.5
+    média > 7?'Aprovado':'Reprovado'
+
+Se fizermos uma conta declarando n como 10
+
+n += 4 - Recebe apenas o valor e o adiciona na variável definida anteriormente
+n **= 3
+
+Aula 09
+
+DOM - Document Object Model
+
+    window.document.write("<br>" + window.document.charset + "<br>");//Traz o set de caracteres da própria página
+    window.document.write(window.navigator.appName + "<br>");//Traz o nome do navegador
+    window.document.write(window.document.URL + "<br>");//Traz a URL do site(acessada no momento)
+
+Podemos acessar os dados através de 5 métodos
+
+- Marca
+- ID
+- Nome
+- Classe
+- Seletor
+
+Quando você for selecionar um elemento e ele estiver no plural, temos que dizer qual elemento estamos pegando através dos colchetes,
+senão estiver basta colocar parênteses.
+
+    var p1 = window.document.getElementsByTagName('p')[0];
+    window.document.write('Está escrito assim no primeiro parágrafo: ' + p1.innerText + '<br>');
+
+    var p2 = window.document.getElementsByTagName('p')[1];
+    window.document.write('Esta escrito assim no segundo parágrafo:' + p2.innerText);
+
+innerText - Apresenta somente o texto, sem suas formatações 
+window.document(p1.innerText)
+
+innerHTML - Apresenta o texto com suas formatações do HTML
+window.document(p1.innerHTML)
+
+d.innerText = 'Estou aguardando...';//Esse comando alterou a frase de "clique em mim" para "Estou aguardando..."
+
+QUERYSELECTOR - Utiliza a sintaxe do CSS
+
+. É para uma Classe
+# É para um ID
+
+Aula 10
+
+Eventos - É tudo aquilo que pode acontecer com essa div,mas em outros casos com outros elementos.
+
+- O mais comum é eventos de mouse
+
+    mouseenter
+    mousemove
+    mousedown
+    mouseup
+    click
+    mouseout
+
+Site utilizado para pesquisa de eventos Javascript 
+
+    - https://developer.mozilla.org/pt-BR/docs/Web/Events
+
+Aula 11
+
+Condições em Javascript
+
+    IF ELSE ELIF
