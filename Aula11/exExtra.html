@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extra</title>
+</head>
+<body>
+    <h1>Sistema de Nacionalidade</h1>
+    Seu país de origem é: <input type="text" name="txtp" id="txtp">
+    <input type="button" value="Verificar" onclick="consultar()">
+    <div id="res"></div>
+
+    <script>
+        function consultar() {
+            var pais = document.querySelector('#txtp');//Faz a conexão com o input para receber seu valor
+            var res = document.querySelector('#res');//Faz a conexão com a div de ID res para poder pegar um resultado futuro que seja jogado para essa variável 
+            // console.log(txtp.value);
+        
+            res.innerHTML = `<p>O seu país de origem é <strong>${pais.value}</strong></p>`;
+            
+            function verificaPais() {
+                if(pais.value === "Brasil") {
+                    res.innerHTML += `<p>Você é brasileiro!</p>`;
+                }
+                else {
+                    return res.innerHTML += `<p>Você é estrangeiro!</p>`;
+                }
+            }
+
+            setTimeout(verificaPais,1000);
+
+        }
+    </script>
+
+</body>
+</html>
