@@ -180,3 +180,10 @@ Exemplo:
         }
     }
 
+Como pegar a hora exata:
+
+Se seu script estiver rodando no cliente, você pega a hora do cliente
+Se seu script estiver rodando no servidor, você pega a hora do servidor
+
+var agora = new Date();// Pega a hora e joga na variável agora
+var hora = agora.hetHours();// Pega o horário inteiro e joga no console para dizer se é manhã, tarde, noite ou madrugada
