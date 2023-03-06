@@ -187,3 +187,28 @@ Se seu script estiver rodando no servidor, você pega a hora do servidor
 
 var agora = new Date();// Pega a hora e joga na variável agora
 var hora = agora.hetHours();// Pega o horário inteiro e joga no console para dizer se é manhã, tarde, noite ou madrugada
+
+Condição Múltipla
+
+Serve para valores fixos, ou seja, executa mais de dois valores como(true ou false), executa para os valores disponíveis
+
+São condições representadas por:
+
+    switch(expressão){
+        case valor 1:
+
+            break;//É obrigatório dentro de cada switch colocarmos um break - > Condição de parada do bloco
+        case valor 2:
+            break;//É obrigatório dentro de cada switch colocarmos um break - > Condição de parada do bloco
+        case valor 3:
+            break;//É obrigatório dentro de cada switch colocarmos um break - > Condição de parada do bloco
+        default: 
+            //Condição criada caso nenhumas das condições anteriores sejam executadas
+                //Criação dessa condição é opcional
+    }
+
+Se você não colocar o break dentro de um switch, ele irá executar o código até o final
+
+getDay() - Dentro do JS, pega exatamene o dia da semana
+
+
