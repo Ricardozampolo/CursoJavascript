@@ -163,5 +163,20 @@ Dentro de um arquivo.js para exibir a frase no console, utilizado console.log ao
 
 Condições em Javascript
 
-    IF ELSE ELIF
+    IF ELSE ELSEIF
+
+Aula 12
+
+Condições aninhadas - São condições dentro de condições
+
+Exemplo:
+    if(cond1){
+
+    }else{
+        if(cond2){
+            
+        }else{
+            
+        }
+    }
 
