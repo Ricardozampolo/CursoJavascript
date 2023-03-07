@@ -211,4 +211,26 @@ Se você não colocar o break dentro de um switch, ele irá executar o código a
 
 getDay() - Dentro do JS, pega exatamene o dia da semana
 
+Aula 13
 
+Bloco de repetição com while e for
+
+Exemplo(while-inicio):
+
+    Estrutura de repetição com código no inicio 
+
+    while(condição){
+
+    }
+
+    Prmeiro faz o teste e depois executa o bloco
+
+Exemplo(while-final):
+
+    Estrutura de repetição com código no final     
+
+    do{
+
+    }while(condição)
+
+    Primeiro executa o bloco e depois faz o teste 
