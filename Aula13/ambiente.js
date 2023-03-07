@@ -3,6 +3,7 @@
 var inicio = 1;
 
 while (inicio <= 600) {
+    //console.log(inicio);
     console.log(`Passo ${inicio}`);
     inicio++;
 }

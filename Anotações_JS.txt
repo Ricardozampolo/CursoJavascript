@@ -225,7 +225,7 @@ Exemplo(while-inicio):
 
     Prmeiro faz o teste e depois executa o bloco
 
-Exemplo(while-final):
+Exemplo(while-final):   
 
     Estrutura de repetição com código no final     
 
@@ -234,3 +234,19 @@ Exemplo(while-final):
     }while(condição)
 
     Primeiro executa o bloco e depois faz o teste 
+
+Aula 14
+
+Estrutura de repetição com variável de controle - Conhecido como FOR
+
+    1°Faz a inicialização e o teste Lógico
+
+    2°Se for verdadeiro ele realizao bloco
+
+    3°Faz o loop com o incremento
+
+    4°Se o teste lógico der falso, ele sai do loop
+
+Como utilizar o debug
+
+Aperte F5 para abrir o Debug e adicione os breakpoints para conseguir rodar o código com o F10 para ir passo a passo e descobrir aonde o erro se encontra
