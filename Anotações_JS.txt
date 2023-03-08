@@ -250,3 +250,19 @@ Estrutura de repetição com variável de controle - Conhecido como FOR
 Como utilizar o debug
 
 Aperte F5 para abrir o Debug e adicione os breakpoints para conseguir rodar o código com o F10 para ir passo a passo e descobrir aonde o erro se encontra
+
+Aula 15
+
+Variáveis compostas - Conhecidas como vetores
+
+    Armazenam diversos valores em uma só variável
+
+O comando .push() - Acrescenta valores a um array
+
+Acrescenta na última posição do array 
+
+O comando .length -  É um atributo que diz o tamanho do elemento caso seja um vetores
+
+O comando .sort() - Ordena o array em ordem crescente
+
+O comando indexOf() - É para encontrar o valor no vetor
