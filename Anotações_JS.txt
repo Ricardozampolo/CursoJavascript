@@ -275,3 +275,9 @@ Funções
     Uma função pode receber parâmetros e retornar um resultado
 
 Quando temos uma fubnção e não pssamos o valor do parâmetro para ela, podemos deixar como definido um valor e ela só irá pegar esse valor caso nenhum outro valor seja atribuído
+
+Aula 17
+
+Objetos
+
+    - Dentro do JS o array é objeto e o obejto também é um objeto
