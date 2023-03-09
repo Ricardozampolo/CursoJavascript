@@ -266,3 +266,12 @@ O comando .length -  É um atributo que diz o tamanho do elemento caso seja um v
 O comando .sort() - Ordena o array em ordem crescente
 
 O comando indexOf() - É para encontrar o valor no vetor
+
+Aula 16
+
+Funções
+    São ações executadas assim que são chamdas ou em decorrência de algum evento
+
+    Uma função pode receber parâmetros e retornar um resultado
+
+Quando temos uma fubnção e não pssamos o valor do parâmetro para ela, podemos deixar como definido um valor e ela só irá pegar esse valor caso nenhum outro valor seja atribuído
